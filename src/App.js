@@ -88,7 +88,7 @@ export default function App() {
             />
           ) : (
             <>
-              <WatchedSummary watched={watched} />
+      <WatchedSummary watched={watched} />
               <WatchedMovieList
                 handleRemoveWatched={handleRemoveWatched}
                 watched={watched}
